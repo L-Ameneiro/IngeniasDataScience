@@ -1,6 +1,6 @@
-# IngeniasDataScience - Curso 2023
-
 # Algoritmo de recomendación de películas
+
+### Realizado en el marco del Curso Ingenias DataScience - 2023
 
 ## Integrantes: Luciana Carvajal (usuario), Leila Ameneiro (usuario)
 
