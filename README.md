@@ -4,7 +4,7 @@
 
 ## Integrantes: 
 Luciana Carvajal (usuario) </br>
-Leila Ameneiro (usuario)
+Leila Luna Ameneiro (usuario)
 
 ## Objetivo
 
