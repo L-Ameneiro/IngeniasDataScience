@@ -2,7 +2,9 @@
 
 ### Realizado en el marco del Curso Ingenias DataScience - 2023
 
-## Integrantes: Luciana Carvajal (usuario), Leila Ameneiro (usuario)
+## Integrantes: 
+Luciana Carvajal (usuario)
+Leila Ameneiro (usuario)
 
 ## Objetivo
 
