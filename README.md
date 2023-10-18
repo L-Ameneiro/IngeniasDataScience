@@ -18,19 +18,19 @@ En /datasets se encuentran los datasets primarios utilizados así como los gener
 
 
 En /notebooks se encuentran los siguientes archivos:
-- **EDA inicial:** Se lleva el análisis exploratorio de datos. Se decide comenzar con un sólo dataset: correspondiente a la plataforma amazon. Se verifican cantidad de columnas y filas, tipo de estructura de datos de dataframe. Se verifica si hay filas duplicadas, tipos de columnas, primeras y ultimas 10 filas del dataset. Se indaga sobre estadísticas de la columna:release_year.
-  Se explora y visualizan los datos faltantes. Posteriormente se estudian las peliculas y los TV show (series) de forma separada para generar gráficos de visualización.
-  Se realizan cambios en la columna duration para unificar la unidad de medida.
-  En el dataset amazon, se observa que hay columnas con datos que están separados por comas, que requerirán un tratameinto especial.
-  Se importan los demás dataset, se crea la columna plataforma y concatenan los mismos. 
-  Finalmente, del análisis exploratorio de los datos inicial, se consluye con que los datasets elegidos serán:  Amazon Prime,  DisneyPlus y Netflix. Se excluirá a Hulu, ya que no es una plataforma de uso en Argentina. Por otra parte, se determina que se tomarán como objeto de estudio en este análisis sólo a las películas, excluyéndose a las series. Se importan los demás conjuntos de datos, se crea la columna plataforma y concatenan los mismos. 
+- **EDA inicial:** Se lleva el análisis exploratorio de datos. Se decide comenzar con un sólo dataset: correspondiente a la plataforma amazon. Se verifican cantidad de columnas y filas, tipo de estructura de datos de dataframe. Se verifica si hay filas duplicadas, tipos de columnas, primeras y ultimas 10 filas del dataset. Se indaga sobre estadísticas de la columna:release_year.</br>
+  Se explora y visualizan los datos faltantes. Posteriormente se estudian las peliculas y los TV show (series) de forma separada para generar gráficos de visualización.</br>
+  Se realizan cambios en la columna duration para unificar la unidad de medida.</br>
+  En el dataset amazon, se observa que hay columnas con datos que están separados por comas, que requerirán un tratameinto especial.</br>
+  Se importan los demás dataset, se crea la columna plataforma y concatenan los mismos. </br>
+  Finalmente, del análisis exploratorio de los datos inicial, se consluye con que los datasets elegidos serán:  Amazon Prime,  DisneyPlus y Netflix. Se excluirá a Hulu, ya que no es una plataforma de uso en Argentina. Por otra parte, se determina que se tomarán como objeto de estudio en este análisis sólo a las películas, excluyéndose a las series. Se importan los demás conjuntos de datos, se crea la columna plataforma y concatenan los mismos. </br>
   
-- **Análisis y procesamiento**: En esta ya está definido el dataframe final, que se formó de la concatenación de los datasets, que contiene solamente películas; denominados: amazon, disney y nexflix. Se realiza el análisis del data set peliculas, renombrando las columnas en idioma español, para facilitar su uso. Se exploran los datos nulos y se visualizan. Posteriormente se procede a la eliminación de las columnas que no serán objeto de estudio de esta análisis. Se explora y visualizan los datos faltantes. Posteriormente se estudian las películas y los programas de televisión (series) de forma separada para generar gráficos de visualización. Se realizan cambios en la columna de duración para unificar la unidad de medida.
-  Se procesa la columa director, permitiendo clasificar las películas según si contaron uno o más directores. 
-  Se proceso la columna listado_en, permitiendo obtener el género principal de cada película para posterior análisis.
-  Se cruzan datos con otros datasets de actores que han recibidos premios Oscar y de actores que han recibido premios Golden Globe, con el objetivo de generar features útiles para el modelado.
-  Se calculan los puntajes promedio para cada película, asignados por un gran número de usuarios.
-   
+- **Análisis y procesamiento**: En esta ya está definido el dataframe final, que se formó de la concatenación de los datasets, que contiene solamente películas; denominados: amazon, disney y nexflix. Se realiza el análisis del data set peliculas, renombrando las columnas en idioma español, para facilitar su uso. Se exploran los datos nulos y se visualizan. Posteriormente se procede a la eliminación de las columnas que no serán objeto de estudio de esta análisis. Se explora y visualizan los datos faltantes. Posteriormente se estudian las películas y los programas de televisión (series) de forma separada para generar gráficos de visualización. Se realizan cambios en la columna de duración para unificar la unidad de medida.</br>
+  Se procesa la columa director, permitiendo clasificar las películas según si contaron uno o más directores. </br>
+  Se proceso la columna listado_en, permitiendo obtener el género principal de cada película para posterior análisis.</br>
+  Se cruzan datos con otros datasets de actores que han recibidos premios Oscar y de actores que han recibido premios Golden Globe, con el objetivo de generar features útiles para el modelado.</br>
+  Se calculan los puntajes promedio para cada película, asignados por un gran número de usuarios.</br>
+ 
   
 - **Modelado**: Se busca generar un modelo de regresión lineal que prediga el puntaje promedio recibido por una película en base a las siguientes features:
   - si en el elenco hay alguna actriz o actor que haya recibido un Premio Oscar
@@ -48,7 +48,7 @@ Este diccionario corresponde a la etapa EDA-INICIAL. </br>
 - country: Lugar (país) de producción. Posteriormente se denominará "pais".</br>
 - date_added: fecha en que se agregó a la plataforma. Posteriormente se denominará "fecha_agregado".</br>
 - release_year: Representa el año de producción. Posterioemente de denominará "anio".</br>
-- rating: Clasifica a las producciones de acuerdo a la edad mínima o público recomendado.Cabe aclarar que según los medios o los países, el significado puede varias, por lo que a continuación se detalla cada código. Posteriormente de denominará "calificacion". </br>
+- rating: Clasifica a las producciones de acuerdo a la edad mínima o público recomendado.Cabe aclarar que según los medios o los países, el significado puede varias, por lo que a continuación se detalla cada código. Posteriormente de denominará "calificacion".
                                              </br>7+: No recomendada para menores de 7 años.
                                             </br> 13+: No recomendada para menores de 13 años.
                                             </br> 16+: No recomendada para menores de 16 años.
