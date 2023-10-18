@@ -53,8 +53,8 @@ Este diccionario corresponde a la etapa EDA-INICIAL. </br>
                                             </br> 13+: No recomendada para menores de 13 años.
                                             </br> 16+: No recomendada para menores de 16 años.
                                             </br> 18+: No recomendada para menores de 18 años.
-                                            </br> ALL: Apropiado para todas las edades.         
-                                           </br>  R: Restringido y para mayores de 18 años.     
+                                            </br> ALL: Apropiado para todas las edades.
+  </br>  R: Restringido y para mayores de 18 años.     
                                             </br> PG-13: Guía paternal estricta, algunos materiales pueden ser inapropiados para niños menores de 13 años.      
                                             </br> PG: Guía paternal sugerida (con supervisión de los padres), algunos materiales pueden no ser adecuados para niños.
                                             </br> NR:(Sin clasificación). Películas que no fueron clasificadas por el comité (las causas varían, aunque por lo general sucede con producciones que no llegaron a salas comerciales en su momento o que se estrenaron previo a la existencia de los sistemas de clasificación).
